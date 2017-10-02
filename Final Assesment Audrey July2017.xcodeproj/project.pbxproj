@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D308F611EDDD6AC785725BC /* Pods_Final_Assesment_Audrey_July2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B94CE46EFDCF1C8956056C8 /* Pods_Final_Assesment_Audrey_July2017.framework */; };
 		F837BAFE1F81D070008EF834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837BAFD1F81D070008EF834 /* AppDelegate.swift */; };
 		F837BB001F81D070008EF834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837BAFF1F81D070008EF834 /* ViewController.swift */; };
 		F837BB031F81D070008EF834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F837BB011F81D070008EF834 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71214843399F84AB52634665 /* Pods-Final Assesment Audrey July2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Assesment Audrey July2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final Assesment Audrey July2017/Pods-Final Assesment Audrey July2017.release.xcconfig"; sourceTree = "<group>"; };
+		9B94CE46EFDCF1C8956056C8 /* Pods_Final_Assesment_Audrey_July2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Assesment_Audrey_July2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E9D6384CBB7CBCB4CA2619 /* Pods-Final Assesment Audrey July2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Assesment Audrey July2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final Assesment Audrey July2017/Pods-Final Assesment Audrey July2017.debug.xcconfig"; sourceTree = "<group>"; };
 		F837BAFA1F81D070008EF834 /* Final Assesment Audrey July2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Assesment Audrey July2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F837BAFD1F81D070008EF834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F837BAFF1F81D070008EF834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,7 @@
 		F837BB041F81D070008EF834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F837BB071F81D070008EF834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F837BB091F81D070008EF834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F837BB0F1F81D219008EF834 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D308F611EDDD6AC785725BC /* Pods_Final_Assesment_Audrey_July2017.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8667A859B108969D3CF32A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B94CE46EFDCF1C8956056C8 /* Pods_Final_Assesment_Audrey_July2017.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E61BA5C1E946DD02770F2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3E9D6384CBB7CBCB4CA2619 /* Pods-Final Assesment Audrey July2017.debug.xcconfig */,
+				71214843399F84AB52634665 /* Pods-Final Assesment Audrey July2017.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F837BAF11F81D070008EF834 = {
 			isa = PBXGroup;
 			children = (
 				F837BAFC1F81D070008EF834 /* Final Assesment Audrey July2017 */,
 				F837BAFB1F81D070008EF834 /* Products */,
+				88E61BA5C1E946DD02770F2A /* Pods */,
+				8667A859B108969D3CF32A5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +85,7 @@
 				F837BB041F81D070008EF834 /* Assets.xcassets */,
 				F837BB061F81D070008EF834 /* LaunchScreen.storyboard */,
 				F837BB091F81D070008EF834 /* Info.plist */,
+				F837BB0F1F81D219008EF834 /* GoogleService-Info.plist */,
 			);
 			path = "Final Assesment Audrey July2017";
 			sourceTree = "<group>";
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F837BB0C1F81D070008EF834 /* Build configuration list for PBXNativeTarget "Final Assesment Audrey July2017" */;
 			buildPhases = (
+				A95B19F7C5CD310BD1BC563D /* [CP] Check Pods Manifest.lock */,
 				F837BAF61F81D070008EF834 /* Sources */,
 				F837BAF71F81D070008EF834 /* Frameworks */,
 				F837BAF81F81D070008EF834 /* Resources */,
+				53D0D11EB57599E1D5F29111 /* [CP] Embed Pods Frameworks */,
+				1EBEF9F3190DC4301BC142E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +159,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EBEF9F3190DC4301BC142E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final Assesment Audrey July2017/Pods-Final Assesment Audrey July2017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D0D11EB57599E1D5F29111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Final Assesment Audrey July2017/Pods-Final Assesment Audrey July2017-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final Assesment Audrey July2017/Pods-Final Assesment Audrey July2017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95B19F7C5CD310BD1BC563D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final Assesment Audrey July2017-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F837BAF61F81D070008EF834 /* Sources */ = {
@@ -272,6 +361,7 @@
 		};
 		F837BB0D1F81D070008EF834 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E9D6384CBB7CBCB4CA2619 /* Pods-Final Assesment Audrey July2017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		F837BB0E1F81D070008EF834 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71214843399F84AB52634665 /* Pods-Final Assesment Audrey July2017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
